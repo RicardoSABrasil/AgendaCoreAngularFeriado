@@ -1,0 +1,12 @@
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Core.deps.json
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Core.dll
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Core.pdb
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.dll
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.pdb
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.csprojAssemblyReference.cache
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.AssemblyInfoInputs.cache
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.AssemblyInfo.cs
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.csproj.CoreCompileInputs.cache
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.csproj.CopyComplete
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.dll
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Core.pdb
