@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QIQIx55RSa7XNLPPH2rNK/X6xjOLeDJehq4lgyLwJF4Rhl+0rVHiPvA2Vdc0XwxTpLgUQ7+BCWi2NwPVp3+ZmA==",
+  "dgSpecHash": "hHpelAXg/NwuxOqcqjZNAIe7FMJyWwJrKO/9pBgVqcuyTs/WSZS5NuRhIjlV8KmTQy8tNX69/M2Cb+a9IzHhFA==",
   "success": true,
   "projectFilePath": "C:\\EstudoFeriado\\Agenda\\AgendaCoreAngularFeriado\\BackEnd\\Agenda\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ricar\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",

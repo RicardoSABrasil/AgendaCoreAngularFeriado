@@ -12,3 +12,7 @@ C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD
 C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.csproj.CopyComplete
 C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.dll
 C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.pdb
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.dll
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.pdb
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Service.dll
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Service.pdb

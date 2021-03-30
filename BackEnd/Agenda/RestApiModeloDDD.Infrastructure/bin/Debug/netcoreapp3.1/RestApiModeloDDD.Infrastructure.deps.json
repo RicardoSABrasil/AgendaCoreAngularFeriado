@@ -8,12 +8,26 @@
     ".NETCoreApp,Version=v3.1": {
       "RestApiModeloDDD.Infrastructure/1.0.0": {
         "dependencies": {
+          "Autofac": "6.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.4",
+          "RestApiModeloDDD.Application": "1.0.0",
           "RestApiModeloDDD.Core": "1.0.0",
-          "RestApiModeloDDD.Domain": "1.0.0"
+          "RestApiModeloDDD.Domain": "1.0.0",
+          "RestApiModeloDDD.Service": "1.0.0"
         },
         "runtime": {
           "RestApiModeloDDD.Infrastructure.dll": {}
+        }
+      },
+      "Autofac/6.1.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore/5.0.4": {
@@ -155,6 +169,15 @@
           }
         }
       },
+      "RestApiModeloDDD.Application/1.0.0": {
+        "dependencies": {
+          "RestApiModeloDDD.Core": "1.0.0",
+          "RestApiModeloDDD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RestApiModeloDDD.Application.dll": {}
+        }
+      },
       "RestApiModeloDDD.Core/1.0.0": {
         "dependencies": {
           "RestApiModeloDDD.Domain": "1.0.0"
@@ -167,6 +190,14 @@
         "runtime": {
           "RestApiModeloDDD.Domain.dll": {}
         }
+      },
+      "RestApiModeloDDD.Service/1.0.0": {
+        "dependencies": {
+          "RestApiModeloDDD.Core": "1.0.0"
+        },
+        "runtime": {
+          "RestApiModeloDDD.Service.dll": {}
+        }
       }
     }
   },
@@ -175,6 +206,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-22aXncFDye08TsXHobcxAoZFBeaJ9nrAxGzk9YHLLaIkYO7aeAA0Sz7Mii9qsfB76S1gdhebqMv8QsnknJMT/w==",
+      "path": "autofac/6.1.0",
+      "hashPath": "autofac.6.1.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/5.0.4": {
       "type": "package",
@@ -274,12 +312,22 @@
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
+    "RestApiModeloDDD.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "RestApiModeloDDD.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "RestApiModeloDDD.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestApiModeloDDD.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

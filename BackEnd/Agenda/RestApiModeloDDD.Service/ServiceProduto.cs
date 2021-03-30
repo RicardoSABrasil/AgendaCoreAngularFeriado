@@ -4,11 +4,11 @@ using RestApiModeloDDD.Domain.Entity;
 
 namespace RestApiModeloDDD.Service
 {
-    public class ProdutoService : ServiceBase<Produto>, IServiceProduto
+    public class ServiceProduto : ServiceBase<Produto>, IServiceProduto
     {
         private readonly IRepositoryProduto repositoryProduto;
 
-        public ProdutoService(IRepositoryProduto repositoryProduto)
+        public ServiceProduto(IRepositoryProduto repositoryProduto)
             : base(repositoryProduto)
         {
             this.repositoryProduto = repositoryProduto;
