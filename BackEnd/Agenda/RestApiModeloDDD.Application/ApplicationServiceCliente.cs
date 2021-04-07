@@ -29,6 +29,12 @@ namespace RestApiModeloDDD.Application
             return mapperCliente.MapperListClientesDTO(clientes);
         }
 
+        public ClienteDTO GetByCPF(string cpf)
+        {
+            var clienteDTO = serviceCliente.GetByCPF(cpf);
+            return mapperCliente.MapperEntityToDto(clienteDTO);
+        }
+
         public ClienteDTO GetById(int id)
         {
             var clienteDTO = serviceCliente.GetById(id);

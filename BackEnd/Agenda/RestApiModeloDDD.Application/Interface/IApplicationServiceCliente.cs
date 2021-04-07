@@ -14,5 +14,7 @@ namespace RestApiModeloDDD.Application.Interface
         IEnumerable<ClienteDTO> GetAll();
 
         ClienteDTO GetById(int id);
+
+        ClienteDTO GetByCPF(string cpf);
     }
 }

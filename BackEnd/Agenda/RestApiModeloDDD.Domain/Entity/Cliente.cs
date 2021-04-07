@@ -9,5 +9,7 @@ namespace RestApiModeloDDD.Domain.Entity
         public string Email { get; set; }
         
         public bool  IsAtivo { get; set; }
+
+        public string CPF { get; set; }
     }
 }

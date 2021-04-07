@@ -9,7 +9,7 @@ namespace RestApiModeloDDD.Application.Interface
 
         void Update(ProdutoDTO produtoDTO);
 
-        void Remover(ProdutoDTO produtoDTO);
+        void Remove(ProdutoDTO produtoDTO);
 
         IEnumerable<ProdutoDTO> GetAll();
 

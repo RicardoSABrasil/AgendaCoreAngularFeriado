@@ -4,5 +4,6 @@ namespace RestApiModeloDDD.Core.Interface.Service
 {
     public interface IServiceCliente : IServiceBase<Cliente>
     {
+        Cliente GetByCPF(string cpf); 
     }
 }

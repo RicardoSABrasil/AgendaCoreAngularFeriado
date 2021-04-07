@@ -13,23 +13,29 @@ namespace RestApiModeloDDD.Application.Mapper
 
         public Cliente MapperDtoToEntity(ClienteDTO clienteDTO)
         {
+            if (clienteDTO == null)
+                return null;
             return new Cliente()
             {
                 Id = clienteDTO.Id,
                 Nome = clienteDTO.Nome,
                 Sobrenome = clienteDTO.Sobrenome,
-                Email = clienteDTO.Email
+                Email = clienteDTO.Email,
+                CPF = clienteDTO.CPF
             };
         }
 
         public ClienteDTO MapperEntityToDto(Cliente cliente)
         {
+            if (cliente == null)
+                return null;
             return new ClienteDTO()
             {
                 Id = cliente.Id,
                 Nome = cliente.Nome,
                 Sobrenome = cliente.Sobrenome,
-                Email = cliente.Email
+                Email = cliente.Email,
+                CPF = cliente.CPF
             };
         }
 

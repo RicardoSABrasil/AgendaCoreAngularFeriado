@@ -35,7 +35,7 @@ namespace RestApiModeloDDD.Application
             return mapperProduto.MapperEntityToDto(produto);
         }
 
-        public void Remover(ProdutoDTO produtoDTO)
+        public void Remove(ProdutoDTO produtoDTO)
         {
             var produto = mapperProduto.MapperDtoToEntity(produtoDTO);
             serviceProduto.Remove(produto);

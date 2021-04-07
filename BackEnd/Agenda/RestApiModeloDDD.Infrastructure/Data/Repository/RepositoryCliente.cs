@@ -1,5 +1,6 @@
 ﻿using RestApiModeloDDD.Core.Interface.Repository;
 using RestApiModeloDDD.Domain.Entity;
+using System.Linq;
 
 namespace RestApiModeloDDD.Infrastructure.Data.Repository
 {
@@ -11,6 +12,11 @@ namespace RestApiModeloDDD.Infrastructure.Data.Repository
             : base(sqlContext)
         {
             this.sqlContext = sqlContext;
+        }
+
+        public Cliente GetByCPF(string cpf)
+        {
+            return sqlContext.Clientes.Where(w => w.CPF == cpf).FirstOrDefault();
         }
     }
 }

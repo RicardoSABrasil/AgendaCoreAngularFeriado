@@ -13,5 +13,10 @@ namespace RestApiModeloDDD.Service
         {
             this.repositoryCliente = repositoryCliente;
         }
+
+        public Cliente GetByCPF(string cpf)
+        {
+            return this.repositoryCliente.GetByCPF(cpf);
+        }
     }
 }
