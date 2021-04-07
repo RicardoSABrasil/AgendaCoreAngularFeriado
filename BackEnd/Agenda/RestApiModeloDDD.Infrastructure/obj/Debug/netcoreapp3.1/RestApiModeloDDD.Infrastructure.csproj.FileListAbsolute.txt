@@ -16,3 +16,6 @@ C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD
 C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.pdb
 C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Service.dll
 C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Service.pdb
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.runtimeconfig.json
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.runtimeconfig.dev.json
+C:\EstudoFeriado\Agenda\AgendaCoreAngularFeriado\BackEnd\Agenda\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.genruntimeconfig.cache
