@@ -83,3 +83,13 @@ typings/
 /BackEnd/Agenda/RestApiModeloDDD.Domain/obj/Debug/netcoreapp3.1
 /BackEnd/Agenda/RestApiModeloDDD.Infrastructure/obj/Debug/netcoreapp3.1
 /BackEnd/Agenda/RestApiModeloDDD.Service/obj/Debug/netcoreapp3.1
+/BackEnd/Agenda/RestApiModeloDDD.API/obj
+/BackEnd/Agenda/RestApiModeloDDD.Application/bin/Debug/netcoreapp3.1
+/BackEnd/Agenda/RestApiModeloDDD.Application/obj
+/BackEnd/Agenda/RestApiModeloDDD.Core/bin/Debug/netcoreapp3.1
+/BackEnd/Agenda/RestApiModeloDDD.Core/obj
+/BackEnd/Agenda/RestApiModeloDDD.Domain/obj
+/BackEnd/Agenda/RestApiModeloDDD.Domain/bin/Debug/netcoreapp3.1
+/BackEnd/Agenda/RestApiModeloDDD.Infrastructure/obj
+/BackEnd/Agenda/RestApiModeloDDD.Service/obj
+/BackEnd/Agenda/RestApiModeloDDD.Service/bin/Debug/netcoreapp3.1
