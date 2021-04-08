@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="CrossCutting\Interface\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
   <ItemGroup>

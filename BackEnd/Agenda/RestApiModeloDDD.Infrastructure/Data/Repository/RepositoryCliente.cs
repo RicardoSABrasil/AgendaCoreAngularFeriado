@@ -1,5 +1,6 @@
 ﻿using RestApiModeloDDD.Core.Interface.Repository;
 using RestApiModeloDDD.Domain.Entity;
+using RestApiModeloDDD.Infrastructure.Data.Repository.EF;
 using System.Linq;
 
 namespace RestApiModeloDDD.Infrastructure.Data.Repository

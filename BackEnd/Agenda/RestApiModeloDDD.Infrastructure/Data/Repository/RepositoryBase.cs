@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RestApiModeloDDD.Core.Interface.Repository;
+using RestApiModeloDDD.Infrastructure.Data.Repository.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;

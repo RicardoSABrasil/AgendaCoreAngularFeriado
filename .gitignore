@@ -94,3 +94,5 @@ typings/
 /BackEnd/Agenda/RestApiModeloDDD.Service/obj
 /BackEnd/Agenda/RestApiModeloDDD.Service/bin/Debug/netcoreapp3.1
 /BackEnd/Agenda/.vs/Agenda/v16/.suo
+BackEnd/Agenda/.vs/Agenda/DesignTimeBuild/.dtbcache.v2
+/BackEnd/Agenda/.vs/Agenda/config/applicationhost.config

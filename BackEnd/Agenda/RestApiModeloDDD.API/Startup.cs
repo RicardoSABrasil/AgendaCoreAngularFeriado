@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using RestApiModeloDDD.Infrastructure.CrossCutting.IOC;
 using RestApiModeloDDD.Infrastructure.Data;
+using RestApiModeloDDD.Infrastructure.Data.Repository.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,6 @@ namespace RestApiModeloDDD.API
 {
     public class Startup
     {
-        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -31,7 +31,6 @@ namespace RestApiModeloDDD.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(
@@ -42,13 +41,10 @@ namespace RestApiModeloDDD.API
                     });
             });
 
-
-
             var connection = Configuration["ConnectionStrings:SqlConnectionString"];
             services.AddDbContext<SqlContext>(options => options.UseSqlServer(connection));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            //services.AddCors();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -80,10 +76,8 @@ namespace RestApiModeloDDD.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
             app.UseCors();
-
-
-
 
             app.UseAuthorization();
 

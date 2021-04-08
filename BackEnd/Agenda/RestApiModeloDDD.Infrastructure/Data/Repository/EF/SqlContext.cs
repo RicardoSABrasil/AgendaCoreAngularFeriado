@@ -1,11 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RestApiModeloDDD.Domain.Entity;
+using RestApiModeloDDD.Infrastructure.Data.Repository.EF.Configuration;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace RestApiModeloDDD.Infrastructure.Data
+namespace RestApiModeloDDD.Infrastructure.Data.Repository.EF
 {
     public class SqlContext : DbContext
     {
@@ -13,14 +12,19 @@ namespace RestApiModeloDDD.Infrastructure.Data
         {
 
         }
-        public SqlContext(DbContextOptions<SqlContext> contextOptions) : base(contextOptions){ }
+
+        public SqlContext(DbContextOptions<SqlContext> contextOptions) : base(contextOptions) 
+        {
+        
+        }
 
         public DbSet<Cliente> Clientes { get; set; }
+
         public DbSet<Produto> Produtos { get; set; }
 
         public override int SaveChanges()
         {
-            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null ))
+            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
             {
                 if (entry.State == EntityState.Added)
                 {
@@ -33,6 +37,12 @@ namespace RestApiModeloDDD.Infrastructure.Data
                 }
             }
             return base.SaveChanges();
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ClienteEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new ProdutoEntityTypeConfiguration());
         }
     }
 }
